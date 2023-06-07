@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#menu-superior{
+    background-color:#303030;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+#title{
+    color: white;
+    margin: 120px 100px 0px 70px;
+    font-size: 60px;
+}
+
+#caption{
+    color: white;
+    margin: 20px 0px 0px 70px;
+    font-size: 20px;
+}
+
+#menu-informacional{
+    background-color: #F9F9F9;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+
+#numbers{
+    font-size: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#text-numbers{
+    font-size: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#information{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;  
+    columns: auto;
+    padding: 82px 0px 92px 77px;
+}
+
+#text-information{
+    padding-top: 180px;
+}
+
+#title-information{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#caption-information{
+    font-size: 24px;
+}
+
+#number40{
+    margin-left: 160px;
+}
+
+#number200000{
+    margin-left: 190px;
+}
+
+#form{
+    text-align: center;
+    background-color: #303030;
+    padding-top: 87px;
+}
+
+#title-form{
+    color: white;
+}
+
+input{
+    height: 50px;
+    width: 508px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    padding-left: 25px;
+    border: 0;
+    font-family: 'raleway'
+    
+}
+
+input::placeholder{
+    opacity: 60%;
+}
+
+button{
+    color: white;
+    font-size: 30px;
+    font-family: 'raleway';
+    margin-bottom: 70px;
+    height: 74px;
+    width: 286px;
+    border-radius: 8px;
+    background-color: #C07212;
+    border: 0;
+    padding-bottom: 8;
+
+}
+
+button:hover{
+    transition-duration: 0.4s;
+    transform: translateY(-7px);
+    cursor: pointer;
+    box-shadow: 0px 15px 15px #131313
+    
+}
